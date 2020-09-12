@@ -9,7 +9,7 @@
   --nav-line-height: 2px;
   --pros-padding: 62px;
   --quotes-arrows-pad: 300px;
-  --popular-arrows-x: -6vw;
+  --popular-arrows-x: -8vw;
   --smile-p-margin: 20px;
   --check-color: #82d24f;
 
@@ -163,6 +163,10 @@
   .pro2 {
     padding-bottom: 58px;
   }
+
+  .pros {
+    padding-left: 0px;
+  }
 }
 
 @media screen and (max-width: 575px) {
@@ -176,6 +180,10 @@
 
   .courses-hero-section .navbar-nav li:nth-child(1) a:after {
     width: 0%;
+  }
+
+  .pros {
+    padding-left: 0px;
   }
 }
 
@@ -272,5 +280,82 @@
   .quote-text {
     padding: 0px;
     padding-top: 24px;
+  }
+}
+
+/* Popular section */
+.popular .carousel-control-prev.arrow-left {
+  left: var(--popular-arrows-x);
+}
+
+.popular .carousel-control-next.arrow-right {
+  right: var(--popular-arrows-x);
+}
+
+.section .card {
+  border: 0px;
+  width: 20rem;
+}
+
+.section .card-text {
+  font-size: 14px;
+  line-height: 24px;
+}
+
+@media screen and (max-width: 1280px) {
+  :root {
+    --popular-arrows-x: -4vw;
+  }
+  .section .card {
+    width: 19vw;
+  }
+}
+
+@media screen and (max-width: 1150px) {
+  :root {
+    --popular-arrows-x: -3vw;
+  }
+  .section .card-img-overlay {
+    top: 4%;
+  }
+  .section .card-img-overlay img {
+    width: 35%;
+  }
+}
+
+@media screen and (max-width: 991px) {
+  :root {
+    --popular-arrows-x: -3vw;
+  }
+
+  .section .card {
+    width: 16rem;
+  }
+  .section .card-img-overlay img {
+    width: 30%;
+  }
+  .section .card-img-overlay {
+    top: 5%;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  :root {
+    --popular-arrows-x: -6vw;
+  }
+  .section .card {
+    width: 16rem;
+  }
+}
+
+@media screen and (max-width: 575px) {
+  :root {
+    --popular-arrows-x: -15px;
+  }
+  .section .card-img-overlay img {
+    width: 30%;
+  }
+  .section .card-img-overlay {
+    top: 5%;
   }
 }
