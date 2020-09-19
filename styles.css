@@ -547,9 +547,6 @@ footer {
   border-bottom-color: var(--color-white) !important;
 }
 
-.text-search {
-}
-
 .form-control.searcher-container::placeholder {
   color: #fff;
   opacity: 0.5;
