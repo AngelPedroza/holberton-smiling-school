@@ -13,7 +13,7 @@
 Holberton smiling school page is a completely responsive website, developed using only CSS3 and HTML5, complying with the standards of good practices and user accessibility
 
 <p align="center">
-  <img src="https://angelpedroza.github.io/holberton-smiling-school/images/readme_assets.png"
+  <img src="./images/readme_assets.png"
        alt="Preview page"
        width="600"
   >
